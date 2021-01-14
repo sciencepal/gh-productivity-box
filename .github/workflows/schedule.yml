@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Update gist
-        uses: maxam2017/productive-box@master
+        uses: sciencepal/gh-productivity-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 881df3f5a4f965fe610d08b595c63cec
